@@ -1,27 +1,24 @@
 body{
-    background-color: #EAC5A9;
+    background-color: #edddd0;
 }
 header{
     background-color: lightblue;
 }
 h1{
-        color:#1F366B;   
+    color:#334259;
 }
-h2{
-    color:#0B3E08; 
-}
-h3{
-    color: #61200A;
-}
-p{
-        color:rgb(1, 1, 15)
+h2,h3,p{
+    color:#01010f;
 }
 nav{
-        text-align: center;
-        list-style-position: inside;
+    text-align: center;
+    list-style-position: inside;
 }
-ul{
-    
+nav ul{
+
+}
+nav ul li{
+    list-style-type: none;
 }
 #my_personal_website{
     font-family: 'Montserrat', sans-serif;
