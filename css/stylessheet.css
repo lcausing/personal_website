@@ -1,6 +1,9 @@
 body{
     background-color: #EAC5A9;
 }
+header{
+    background-color: lightblue;
+}
 h1{
         color:#1F366B;   
 }
@@ -9,14 +12,16 @@ h2{
 }
 h3{
     color: #61200A;
-   }
+}
 p{
         color:rgb(1, 1, 15)
 }
 nav{
-        background-color: lightblue;
         text-align: center;
         list-style-position: inside;
+}
+ul{
+    
 }
 #my_personal_website{
     font-family: 'Montserrat', sans-serif;
