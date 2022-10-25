@@ -1,14 +1,14 @@
 body{
-    background-color: rgb(100, 211, 219);
+    background-color: #EAC5A9;
 }
 h1{
-        color:rgb(55, 142, 61)   
+        color:#1F366B;   
 }
 h2{
-    color:rgb(241, 241, 197) 
+    color:#0B3E08; 
 }
 h3{
-    color: darkgoldenrod;
+    color: #61200A;
    }
 p{
         color:rgb(1, 1, 15)
