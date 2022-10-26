@@ -17,6 +17,12 @@ nav{
 }
 nav ul li{
     list-style-type: none;
+    padding: 5px;
+}
+.nav_bar{
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 footer{
     background-color: #a5cad4;
