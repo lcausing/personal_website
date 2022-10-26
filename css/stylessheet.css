@@ -33,4 +33,8 @@ footer p{
 main{
     display:grid;
     grid-template-columns: 2fr 1fr;
+
+}
+#my_photo{
+    grid-column: -2/-1;
 }
