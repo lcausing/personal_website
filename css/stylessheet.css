@@ -21,3 +21,9 @@ nav ul li{
 #my_personal_website{
     font-family: 'Montserrat', sans-serif;
 }
+footer{
+    background-color: #a5cad4;
+}
+footer p{
+    text-align: center;
+}
