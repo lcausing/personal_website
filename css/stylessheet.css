@@ -43,3 +43,6 @@ main{
 article{
     grid-column: 1/2;
 }
+.courses{
+    grid-row: 3/4;
+}
