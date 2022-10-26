@@ -2,10 +2,11 @@ body{
     background-color: #edddd0;
 }
 header{
-    background-color: lightblue;
+    background-color: #a5cad4;
 }
 h1{
     color:#334259;
+    text-align: center;
 }
 h2,h3,p{
     color:#01010f;
@@ -13,9 +14,6 @@ h2,h3,p{
 nav{
     text-align: center;
     list-style-position: inside;
-}
-nav ul{
-
 }
 nav ul li{
     list-style-type: none;
