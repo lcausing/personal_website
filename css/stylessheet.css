@@ -30,7 +30,7 @@ footer{
 footer p{
     text-align: center;
 }
-main{
+.main_index{
     display:grid;
     grid-template-columns: 2fr 1fr;
 }
@@ -48,4 +48,7 @@ article{
 }
 .course_list{
     list-style-type: none;
+}
+.each_course{
+    border-bottom: 2px solid black;
 }
