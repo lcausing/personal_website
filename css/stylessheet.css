@@ -62,3 +62,7 @@ article{
     grid-template-rows: 1fr 1fr;
     grid-auto-flow: column;
 }
+hr{
+    border: solid;
+    border-width: 0.5px;
+}
