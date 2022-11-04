@@ -76,3 +76,12 @@ main{
     align-content: center;
     justify-content: center;
 }
+.course_list li{
+    grid-auto-flow: row;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+.course_list li p{
+    margin-bottom: 0px;
+}
+}
