@@ -12,6 +12,8 @@ h1{
 img{
     width: 100%;
     height: auto;
+    max-width: max-content;
+    max-height: max-content;
 }
 h2,h3,p{
     color:#01010f;
@@ -55,4 +57,7 @@ article{
 }
 .each_course{
     border-bottom: 2px solid black;
+}
+.main_courses{
+    
 }
