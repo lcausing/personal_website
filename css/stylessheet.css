@@ -63,9 +63,10 @@ article{
     grid-template-rows: 1fr 1fr;
     grid-auto-flow: column;
 }
-hr{
-    border: solid;
-    border-width: 0.5px;
+.each_course_bottom_margin{
+    display: block;
+    border-bottom: solid 2px grey;
+    margin-bottom: 5px;
 }
 
 @media screen and (max-width: 600px)  {
@@ -85,14 +86,9 @@ main{
 .course_list li p{
     margin-bottom: 0px;
 }
-hr{
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
+.each_course_bottom_margin{
+    border-bottom: solid 1px silver;
+    margin-bottom: 5px;
 }
 footer,header {
     font-size: 75%;
