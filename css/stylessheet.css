@@ -53,9 +53,11 @@ article{
     grid-column: 1/-1;
 }
 .course_list{
-    margin-left: 0px;
     list-style-type: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    padding: 0;
+}
+.course_list li{
 }
