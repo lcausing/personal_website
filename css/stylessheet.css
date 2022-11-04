@@ -66,3 +66,10 @@ hr{
     border: solid;
     border-width: 0.5px;
 }
+
+@media screen and (max-width: 600px)  {
+main{
+    font-size: 75%;
+}
+
+}
