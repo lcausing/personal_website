@@ -71,5 +71,8 @@ hr{
 main{
     font-size: 75%;
 }
-
+.nav_bar{
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
 }
