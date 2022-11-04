@@ -53,11 +53,9 @@ article{
     grid-column: 1/-1;
 }
 .course_list{
+    margin-left: 0px;
     list-style-type: none;
-}
-.each_course{
-    border-bottom: 2px solid black;
-}
-.main_courses{
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
