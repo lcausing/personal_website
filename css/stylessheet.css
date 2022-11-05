@@ -69,7 +69,7 @@ article{
     margin-bottom: 5px;
 }
 
-@media screen and (max-width: 600px)  {
+@media screen and (min-width: 600px)  {
 main{
     font-size: 75%;
 }
