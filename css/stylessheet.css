@@ -26,10 +26,10 @@ nav ul li{
     padding: 5px;
 }
 .nav_bar{
-    display: flex;
+    flex-direction: row;
     align-content: center;
     justify-content: center;
-    padding:0px;
+    padding: 0px;
 }
 footer{
     background-color: #a5cad4;
@@ -68,15 +68,16 @@ article{
     border-bottom: solid 2px grey;
     margin-bottom: 5px;
 }
-
-@media screen and (min-width: 600px)  {
-main{
+main,footer,header{
     font-size: 75%;
 }
+@media screen and (min-width: 600px)  {
+
 .nav_bar{
-    flex-direction: column;
+    display: flex;
     align-content: center;
     justify-content: center;
+    padding: 0px;
 }
 .course_list li{
     grid-auto-flow: row;
@@ -89,8 +90,5 @@ main{
 .each_course_bottom_margin{
     border-bottom: solid 1px silver;
     margin-bottom: 5px;
-}
-footer,header {
-    font-size: 75%;
 }
 }
