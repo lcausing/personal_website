@@ -63,9 +63,11 @@ article{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
 }
+ /* .course_list li p{
+     margin-bottom: 0px;
+}  */
 .each_course_bottom_margin{
-    display: block;
-    border-bottom: solid 2px grey;
+    border-bottom: solid 1px silver;
     margin-bottom: 5px;
 }
 main,footer,header{
@@ -85,11 +87,10 @@ main,footer,header{
     grid-auto-flow: column;
     
 }
-.course_list li p{
-    margin-bottom: 0px;
-}
+
 .each_course_bottom_margin{
-    border-bottom: solid 1px silver;
+    display: block;
+    border-bottom: solid 2px grey;
     margin-bottom: 5px;
 }
 }
