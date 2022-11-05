@@ -75,6 +75,9 @@ header {
   font-size: 75%;
 }
 @media screen and (min-width: 600px) {
+    main,footer,header {
+    font-size: 100%;
+  }  
   .nav_bar {
     display: flex;
     align-content: center;
