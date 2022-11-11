@@ -25,7 +25,7 @@ for (let course of courseList){
     }
     else{
         lengthChecker++;
-        if((originalLength != courseList.length)|| (lengthChecker === courseList.length) ){
+        if(lengthChecker === courseList.length){
             courseList.push({code:codeChecker, name:null}); 
             console.log("Successfully Added!");
             break
